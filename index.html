@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PixelPit - Desarrollo Web Innovador y de Alto Rendimiento</title>
+    <meta name="description" content="PixelPit ofrece soluciones de desarrollo web de vanguardia, diseño UX/UI y estrategias digitales para impulsar el crecimiento de tu negocio.">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js"></script>
+    <script src="script.js" defer></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="/PixelPit-logo.png" alt="PixelPit Logo">
+            </div>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#servicios">Servicios</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
+                <li><a href="#sobre-nosotros">Sobre Nosotros</a></li>
+                <li><a href="#testimonios">Testimonios</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+            <button id="theme-toggle" aria-label="Cambiar tema">
+                <i class="fas fa-moon"></i>
+            </button>
+        </nav>
+    </header>
+
+    <main>
+        <section id="inicio" class="hero">
+            <h1>Transformando Ideas en Experiencias Digitales Excepcionales</h1>
+            <p>Desarrollo web innovador y estrategias digitales para impulsar tu negocio al siguiente nivel</p>
+            <div class="cta-buttons">
+                <a href="#contacto" class="cta-button">Comienza tu proyecto</a>
+                <a href="#servicios" class="cta-button secondary">Explora nuestros servicios</a>
+            </div>
+        </section>
+        <section id="servicios">
+            <h2>Nuestros Servicios</h2>
+            <div class="service-grid">
+                <div class="service-card">
+                    <i class="fas fa-laptop-code"></i>
+                    <h3>Desarrollo Web</h3>
+                    <p>Sitios web responsivos y aplicaciones web de alto rendimiento utilizando las últimas tecnologías.</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-mobile-alt"></i>
+                    <h3>Desarrollo de Apps</h3>
+                    <p>Aplicaciones móviles nativas y multiplataforma para iOS y Android que cautivan a los usuarios.</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-search"></i>
+                    <h3>SEO y Marketing Digital</h3>
+                    <p>Optimización para motores de búsqueda y estrategias de marketing digital para aumentar tu visibilidad online.</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-paint-brush"></i>
+                    <h3>Diseño UX/UI</h3>
+                    <p>Interfaces de usuario intuitivas y experiencias de usuario excepcionales que convierten visitantes en clientes.</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-server"></i>
+                    <h3>Hosting y Mantenimiento</h3>
+                    <p>Soluciones de alojamiento seguro y servicios de mantenimiento continuo para mantener tu sitio actualizado y protegido.</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-chart-line"></i>
+                    <h3>Análisis y Optimización</h3>
+                    <p>Monitoreo detallado del rendimiento y optimización continua para maximizar el ROI de tu presencia digital.</p>
+                </div>
+            </div>
+            
+        </section>
+
+        <section id="proceso" class="process">
+            <h2>Nuestro Proceso de Trabajo</h2>
+            <div class="process-steps">
+                <div class="process-step">
+                    <div class="step-number">1</div>
+                    <h3>Descubrimiento</h3>
+                    <p>Analizamos tus necesidades y objetivos para crear una estrategia personalizada.</p>
+                </div>
+                <div class="process-step">
+                    <div class="step-number">2</div>
+                    <h3>Planificación</h3>
+                    <p>Desarrollamos un plan detallado y un cronograma para tu proyecto.</p>
+                </div>
+                <div class="process-step">
+                    <div class="step-number">3</div>
+                    <h3>Diseño</h3>
+                    <p>Creamos prototipos y diseños visuales que capturan la esencia de tu marca.</p>
+                </div>
+                <div class="process-step">
+                    <div class="step-number">4</div>
+                    <h3>Desarrollo</h3>
+                    <p>Construimos tu proyecto utilizando las últimas tecnologías y mejores prácticas.</p>
+                </div>
+                <div class="process-step">
+                    <div class="step-number">5</div>
+                    <h3>Pruebas</h3>
+                    <p>Realizamos pruebas exhaustivas para garantizar la calidad y el rendimiento.</p>
+                </div>
+                <div class="process-step">
+                    <div class="step-number">6</div>
+                    <h3>Lanzamiento</h3>
+                    <p>Implementamos tu proyecto y proporcionamos soporte continuo post-lanzamiento.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="proyectos">
+            <h2>Proyectos Destacados</h2>
+            <div class="project-grid">
+                <div class="project-card">
+                    <img src="project1.jpg" alt="E-commerce de Moda">
+                    <h3>E-commerce de Moda</h3>
+                    <p>Plataforma de comercio electrónico para una marca de moda líder con integración de IA para recomendaciones personalizadas.</p>
+                    <a href="#" class="btn-view-project">Ver Proyecto</a>
+                </div>
+                <div class="project-card">
+                    <img src="project2.jpg" alt="App de Fitness">
+                    <h3>App de Fitness</h3>
+                    <p>Aplicación móvil de seguimiento de ejercicios y nutrición con planes de entrenamiento personalizados y análisis de progreso.</p>
+                    <a href="#" class="btn-view-project">Ver Proyecto</a>
+                </div>
+                <div class="project-card">
+                    <img src="/logo colegio.png" alt="Portal Educativo">
+                    <h3>Portal Educativo</h3>
+                    <p>Plataforma de aprendizaje en línea para una universidad prestigiosa con funcionalidades de aula virtual y seguimiento de progreso.</p>
+                    <a href="https://info-ctn.web.app/" class="btn-view-project">Ver Proyecto</a>
+                </div>
+                <div class="project-card">
+                    <img src="project4.jpg" alt="Dashboard IoT">
+                    <h3>Dashboard IoT</h3>
+                    <p>Panel de control en tiempo real para una empresa de tecnología IoT, visualizando datos de miles de dispositivos conectados.</p>
+                    <a href="#" class="btn-view-project">Ver Proyecto</a>
+                </div>
+            </div>
+            <div class="text-center">
+                <a href="#" class="btn-view-all">Ver todos los proyectos</a>
+            </div>
+        </section>
+
+        <section id="tecnologias" class="technologies">
+            <h2>Tecnologías que Dominamos</h2>
+            <div class="tech-grid">
+                <div class="tech-item"><img src="tech-react.png" alt="React"></div>
+                <div class="tech-item"><img src="tech-vue.png" alt="Vue.js"></div>
+                <div class="tech-item"><img src="tech-angular.png" alt="Angular"></div>
+                <div class="tech-item"><img src="tech-node.png" alt="Node.js"></div>
+                <div class="tech-item"><img src="tech-python.png" alt="Python"></div>
+                <div class="tech-item"><img src="tech-aws.png" alt="AWS"></div>
+                <div class="tech-item"><img src="tech-docker.png" alt="Docker"></div>
+                <div class="tech-item"><img src="tech-kubernetes.png" alt="Kubernetes"></div>
+            </div>
+        </section>
+
+        <section id="sobre-nosotros">
+            <h2>Sobre PixelPit</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>En PixelPit, somos un equipo apasionado de desarrolladores, diseñadores y estrategas digitales dedicados a crear soluciones web innovadoras y de alta calidad. Con años de experiencia en la industria, nos enorgullecemos de ofrecer resultados excepcionales que impulsan el éxito de nuestros clientes.</p>
+                    <p>Nuestra misión es transformar ideas en experiencias digitales impactantes que no solo cumplen, sino que superan las expectativas de nuestros clientes y sus usuarios finales.</p>
+                    <a href="#" class="btn-learn-more">Conoce más sobre nosotros</a>
+                </div>
+                <div class="about-image">
+                    <img src="team-photo.jpg" alt="Equipo de PixelPit">
+                </div>
+            </div>
+            <div class="team-grid">
+                <div class="team-member">
+                    <img src="team1.jpg" alt="Ana Rodríguez">
+                    <h3>Ana Rodríguez</h3>
+                    <p>Fundadora y CEO</p>
+                    <div class="social-links">
+                        <a href="#" aria-label="LinkedIn de Ana Rodríguez"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" aria-label="Twitter de Ana Rodríguez"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+                <div class="team-member">
+                    <img src="team2.jpg" alt="Carlos Méndez">
+                    <h3>Carlos Méndez</h3>
+                    <p>Director de Tecnología</p>
+                    <div class="social-links">
+                        <a href="#" aria-label="LinkedIn de Carlos Méndez"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" aria-label="GitHub de Carlos Méndez"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+                <div class="team-member">
+                    <img src="team3.jpg" alt="Laura Gómez">
+                    <h3>Laura Gómez</h3>
+                    <p>Diseñadora UX/UI Senior</p>
+                    <div class="social-links">
+                        <a href="#" aria-label="LinkedIn de Laura Gómez"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" aria-label="Dribbble de Laura Gómez"><i class="fab fa-dribbble"></i></a>
+                    </div>
+                </div>
+                <div class="team-member">
+                    <img src="team4.jpg" alt="David Torres">
+                    <h3>David Torres</h3>
+                    <p>Líder de Desarrollo Full-Stack</p>
+                    <div class="social-links">
+                        <a href="#" aria-label="LinkedIn de David Torres"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" aria-label="GitHub de David Torres"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="testimonios" class="testimonials">
+            <h2>Lo que Dicen Nuestros Clientes</h2>
+            <div class="testimonial-slider">
+                <div class="testimonial-item">
+                    <p>"PixelPit transformó nuestra visión en una realidad digital impresionante. Su equipo no solo entendió nuestras necesidades, sino que las superó con creces."</p>
+                    <div class="testimonial-author">
+                        <img src="client1.jpg" alt="María Sánchez">
+                        <div>
+                            <h4>María Sánchez</h4>
+                            <p>CEO, FashionTech</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-item">
+                    <p>"La app que desarrollaron para nosotros ha sido un game-changer. El aumento en la retención de usuarios y las conversiones hablan por sí mismos."</p>
+                    <div class="testimonial-author">
+                        <img src="client2.jpg" alt="Juan Pérez">
+                        <div>
+                            <h4>Juan Pérez</h4>
+                            <p>Fundador, FitLife  App</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-item">
+                    <p>"Su enfoque en UX/UI y rendimiento nos ayudó a crear una plataforma educativa que nuestros estudiantes adoran usar. ¡Altamente recomendados!"</p>
+                    <div class="testimonial-author">
+                        <img src="client3.jpg" alt="Elena Martínez">
+                        <div>
+                            <h4>Elena Martínez</h4>
+                            <p>Directora de Innovación, EduTech University</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="blog" class="blog-preview">
+            <h2>Últimas Publicaciones del Blog</h2>
+            <div class="blog-grid">
+                <article class="blog-card">
+                    <img src="blog1.jpg" alt="Tendencias de Diseño Web 2024">
+                    <h3>Tendencias de Diseño Web para 2024</h3>
+                    <p>Descubre las tendencias de diseño web que dominarán el próximo año y cómo implementarlas en tus proyectos.</p>
+                    <a href="#" class="read-more">Leer más</a>
+                </article>
+                <article class="blog-card">
+                    <img src="blog2.jpg" alt="Optimización de Rendimiento Web">
+                    <h3>Guía de Optimización de Rendimiento Web</h3>
+                    <p>Aprende técnicas avanzadas para mejorar la velocidad y el rendimiento de tu sitio web.</p>
+                    <a href="#" class="read-more">Leer más</a>
+                </article>
+                <article class="blog-card">
+                    <img src="blog3.jpg" alt="IA en el Desarrollo Web">
+                    <h3>El Impacto de la IA en el Desarrollo Web</h3>
+                    <p>Explora cómo la inteligencia artificial está revolucionando el desarrollo web y qué significa para el futuro.</p>
+                    <a href="#" class="read-more">Leer más</a>
+                </article>
+            </div>
+            <div class="text-center">
+                <a href="#" class="btn-view-all">Ver todas las publicaciones</a>
+            </div>
+        </section>
+
+        <section id="contacto">
+            <h2>Contacta con Nosotros</h2>
+            <div class="contact-container">
+                <form class="contact-form">
+                    <div class="form-group">
+                        <label for="name">Nombre</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Nombre de la empresa o marca personal</label>
+                        <input type="text" id="subject" name="subject" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Mensaje</label>
+                        <textarea id="message" name="message" placeholder="Ejemplo: Somos una empresa de desarrollo web que quiere llegar a todas las empresas que no cuentan con paginas web" required></textarea>
+                    </div>
+                    <button type="submit" class="btn-view-project">Enviar Mensaje</button>
+                </form>
+                <div class="contact-info">
+                    <h3>Información de Contacto</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> Calle Innovación 123, Ciudad Tecnológica</p>
+                    <p><i class="fas fa-phone"></i> +34 123 456 789</p>
+                    <p><i class="fas fa-envelope"></i> info@pixelpit.com</p>
+                    <div class="social-links">
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="newsletter" class="newsletter">
+            <h2>Suscríbete a Nuestro Newsletter</h2>
+            <p>Recibe las últimas noticias, consejos y ofertas especiales directamente en tu bandeja de entrada.</p>
+            <form class="newsletter-form">
+                <input type="email" placeholder="Tu dirección de email" required>
+                <button type="submit">Suscribirse</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>PixelPit</h3>
+                <p>Transformando el mundo digital, un pixel a la vez.</p>
+            </div>
+            <div class="footer-section">
+                <h3>Enlaces Rápidos</h3>
+                <ul>
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#servicios">Servicios</a></li>
+                    <li><a href="#proyectos">Proyectos</a></li>
+                    <li><a href="#sobre-nosotros">Sobre Nosotros</a></li>
+                    <li><a href="#blog">Blog</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Servicios</h3>
+                <ul>
+                    <li><a href="#">Desarrollo Web</a></li>
+                    <li><a href="#">Diseño UX/UI</a></li>
+                    <li><a href="#">Desarrollo de Apps</a></li>
+                    <li><a href="#">SEO y Marketing Digital</a></li>
+                    <li><a href="#">Consultoría IT</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Síguenos</h3>
+                <div class="social-icons">
+                    <a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+                    <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                    <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                    <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 PixelPit. Todos los derechos reservados.</p>
+            <ul class="footer-legal">
+                <li><a href="#">Política de Privacidad</a></li>
+                <li><a href="#">Términos de Servicio</a></li>
+                <li><a href="#">Política de Cookies</a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>
+
